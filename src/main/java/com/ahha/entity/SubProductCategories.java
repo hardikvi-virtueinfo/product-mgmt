@@ -40,6 +40,7 @@ public class SubProductCategories extends AuditData{
 	@ManyToOne(cascade = CascadeType.ALL)
 	private ProductCategories productCategories;
 	
+	
 	@Column(name="sub_product_cat_name")
 	private String subProductCatName;
 	
