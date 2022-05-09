@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @FeignClient(name = "user-mgmt")
 public interface ContentData {
 
-    @GetMapping( "api/user")
+   @GetMapping( "api/user")
     String getUser();
 
 }
